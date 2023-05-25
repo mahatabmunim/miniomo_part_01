@@ -1,0 +1,156 @@
+body {
+    margin: 0px; 
+    font-family: "Playfair Display", serif; 
+    font-size: 16px; 
+    font-weight: 400; color: rgb(98, 98, 98); 
+}
+header {
+    padding: 40px 0;
+    border: 1px solid red;
+}
+.wrapper { 
+    width: 90%; 
+    overflow: hidden; 
+    margin: 0px auto;
+    border: 1px solid red;
+}
+.logo {
+    width: 12%; 
+    float: left;
+    border: 1px solid darkgrey; 
+}
+.logo img { 
+    width: 100%; 
+}
+.manu { 
+    width: 65%; 
+    float: right;
+    border: 1px solid yellowgreen;
+}
+.manu ul {
+    float: right;
+    margin: 0;
+}
+.manu ul li { 
+    list-style: none;
+    float: left; 
+}
+.manu ul li a {
+    text-decoration: none;
+    margin: 0px 47px;
+    padding: 5px 0px;
+    color: rgb(98, 98, 98);
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .33s;
+    border-bottom: 1px solid transparent; 
+}
+.manu ul li:last-child a { 
+    padding-right: 0px; 
+}
+.manu ul li a:hover { 
+    border-bottom: 1px solid #626262;   
+}
+
+
+.banner{
+    margin-bottom: 50px;
+}
+.b_img{    
+    /* padding: 100px 0; */
+}
+.b_img img{  
+    width: 100%;  
+    border: 1px solid red;
+}
+
+.perfect{
+    padding:100px 0 20px;
+}
+.wrapper_2{
+
+    width: 80%;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    border: 1px solid red;
+}
+.c_light{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+    
+
+.c_title{
+    font-size: 30px;
+    margin: 20px 0 25px;
+    font-weight: 400;
+}
+.c_text{
+    margin: 0;
+    text-align: justify;
+    line-height: 24px;
+}
+.c_mb{
+    margin-bottom: 45px;
+}
+
+/* single blog start */
+.blog{
+
+}
+.s_blog{
+    width: 47%;
+    float: left;
+    margin-right: 6%;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin-top: 70px;
+}
+.s_mt{
+    margin-bottom: 80px;
+}
+.s_img{
+    margin-bottom: 20px;
+}
+.s_img img{
+    width: 100%;
+}
+.s_blog:nth-child(even){
+    margin-right: 0;
+}
+/* single blog end */
+
+/* news start  */
+.news{
+    min-height: 300px;
+    background-color: #626262;
+}
+/* news end */
+.blog_2{
+    padding: 20px 0 100px;
+}
+.load{
+    margin: 100px 0;
+    text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .33s;
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+}
